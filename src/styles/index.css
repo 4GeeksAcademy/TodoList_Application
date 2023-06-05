@@ -10,3 +10,79 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+body {
+    margin-top: 50px;
+    background-color: rgba(237, 236, 236, 0.834);
+    font-family: 'Tsukimi Rounded', sans-serif;
+}
+
+.container {
+    
+    justify-content: center;
+    max-width: fit-content;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(221, 131, 131);
+    font-weight: lighter;
+}
+
+ul {
+    padding: 0px;
+    margin-top: 5px;
+    
+}
+
+ul li{
+    background-color: rgb(243, 245, 247);
+    margin-top: 5px;
+    color: rgb(129, 132, 134);
+    width: 600px;
+    height: 50px;
+    border: 1px rgb(237, 227, 227);
+    list-style-type: none
+}
+
+input {
+    background-color: rgb(243, 245, 247);
+    color: rgb(129, 132, 134);
+    outline: none;
+    border: none;
+    width: 600px;
+    height: 50px;
+    font-weight: 100;
+}
+
+.task-input {
+    padding: 10px 20px;
+    border: 1px solid rgb(208, 202, 202);
+    box-shadow: 0px 0px 20px rgb(164, 161, 161);
+}
+
+.items {
+    font-size: small;
+    margin-top: 5px;
+    padding: 2px;
+    font-weight: lighter;
+    color: rgb(129, 132, 134);
+    background-color: rgb(243, 245, 247);
+}
+
+.btn {
+    display: none;
+}
+
+li + .btn:hover {
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
